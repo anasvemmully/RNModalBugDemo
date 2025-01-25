@@ -1,0 +1,49 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+.yarn/*
+
+*.keystore
+
+# Android cache and build folders
+**/android/.cxx/
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+**/android/.idea/libraries/
+**/android/.idea/caches/
+**/android/.idea/modules.xml
+**/android/local.properties
+**/android/.DS_Store
+**/android/**/generated/
+**/android/app/release/app-release.apk
+**/android/app/debug/app-debug.apk
+
+# iOS cache and build folders
+**/ios/build/
+**/ios/Pods/
+**/ios/DerivedData/
+**/ios/.DS_Store
+**/ios/Podfile.lock
+**/ios/Pods.xcodeproj/*
+**/ios/Pods.xcworkspace/*
+**/ios/xcuserdata/*
+**/ios/.idea/*
+**/ios/Podfile.lock
+**/ios/*.xcworkspace
+**/ios/*.xcodeproj/project.xcworkspace/xcuserdata
+.env.local
